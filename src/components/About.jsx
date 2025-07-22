@@ -12,7 +12,7 @@ const About = () => {
           <div className="col-md-8">
             <h2 className="display-4 fw-bold mb-3">Anisur Rahman</h2>
             <p className="lead">
-              Dynamic and results-driven Software Engineer with over 4.5 years of experience in developing efficient software solutions using C#, SQL, and Angular. Seeking a challenging role at a reputable company where I can utilize my technical skills and problem-solving abilities to drive the success of innovative projects. Committed to delivering high-quality software that meets the needs of customers and users while continuously improving my knowledge and skills in the latest technologies.
+              Dedicated and growth-oriented Software Engineer with nearly 5 years of professional experience in full-stack development, currently contributing to impactful projects at Brain Station 23. Skilled in .NET Framework, C#, SQL, Angular, JavaScript, and UI libraries such as Kendo UI and Telerik. Known for delivering scalable, maintainable solutions and collaborating effectively across teams. Committed to continuous learning, clean code practices, and leveraging technology to drive real-world results in dynamic environments.
             </p>
           </div>
         </div>
