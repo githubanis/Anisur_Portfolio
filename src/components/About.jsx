@@ -11,8 +11,15 @@ const About = () => {
           </div>
           <div className="col-md-8">
             <h2 className="display-4 fw-bold mb-3">Anisur Rahman</h2>
+            <h5 className="text-primary mb-3">Software Engineer | Dhaka, Bangladesh</h5>
+            <p className="lead mb-3">
+              Results-driven Software Engineer with <strong>5+ years</strong> of experience building and maintaining enterprise software using C#, .NET, SQL, and Angular.
+            </p>
+            <p className="lead mb-3">
+              Currently owns a real-time payment platform for <strong>MetLife Bangladesh</strong> end-to-end — architecture, gRPC/bank integrations, security, deployment, and production support — processing high-volume policy payment, top-up, and withdrawal transactions across multiple environments. Delivered <strong>18+ epics and features</strong> across 4 PI cycles on this platform alone.
+            </p>
             <p className="lead">
-              Dedicated and growth-oriented Software Engineer with nearly 5 years of professional experience in full-stack development, currently contributing to impactful projects at Brain Station 23. Skilled in .NET Framework, C#, SQL, Angular, JavaScript, and UI libraries such as Kendo UI and Telerik. Known for delivering scalable, maintainable solutions and collaborating effectively across teams. Committed to continuous learning, clean code practices, and leveraging technology to drive real-world results in dynamic environments.
+              Actively integrates AI-assisted development tools (GitHub Copilot and various LLMs) into daily workflows to increase delivery speed and engineering efficiency in a cost-conscious way. Passionate about bringing strong technical execution and a modern, AI-augmented engineering approach to high-impact projects.
             </p>
           </div>
         </div>

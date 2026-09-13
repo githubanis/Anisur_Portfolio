@@ -2,38 +2,38 @@ import React from 'react';
 
 const Skills = () => {
   const technicalSkills = [
-    { name: 'Object-Oriented Programming (OOP)', icon: 'bi-boxes' },
-    { name: 'Data Structures', icon: 'bi-diagram-2' },
-    { name: 'Cascading Style Sheets (CSS)', icon: 'bi-filetype-css' },
-    { name: 'AJAX', icon: 'bi-arrow-repeat' },
-    { name: 'HTML', icon: 'bi-filetype-html' },
-    { name: 'Kendo UI', icon: 'bi-ui-checks' },
-    { name: 'jQuery', icon: 'bi-code-slash' },
-    { name: 'Telerik', icon: 'bi-ui-checks-grid' },
-    { name: 'JavaScript', icon: 'bi-filetype-js' },
-    { name: 'SQL', icon: 'bi-database' },
-    { name: '.NET Framework', icon: 'bi-dot-net' },
+    { name: 'gRPC & Streaming APIs', icon: 'bi-broadcast-pin' },
+    { name: 'Microservices', icon: 'bi-diagram-3' },
+    { name: 'Server-Sent Events (SSE)', icon: 'bi-activity' },
+    { name: '.NET 10 / .NET Core', icon: 'bi-dot-net' },
+    { name: 'C#', icon: 'bi-filetype-cs' },
     { name: 'ASP.NET Web API', icon: 'bi-globe' },
-    { name: '.NET Core', icon: 'bi-dot-net' },
-    { name: 'AngularJS', icon: 'bi-angular' },
-    { name: 'Angular', icon: 'bi-angular' },
-    { name: 'REST APIs', icon: 'bi-cloud-arrow-up' },
-    { name: 'PostgreSQL', icon: 'bi-database-fill' },
+    { name: 'SQL & SQL Server', icon: 'bi-database' },
+    { name: 'MongoDB', icon: 'bi-server' },
+    { name: 'Microsoft Entra ID (Azure AD)', icon: 'bi-shield-lock' },
+    { name: 'Resilience Policies (Retry/Circuit Breaker)', icon: 'bi-shield-check' },
+    { name: 'Third-Party API Integration', icon: 'bi-plug' },
+    { name: 'Azure DevOps CI/CD', icon: 'bi-gear-wide-connected' },
+    { name: 'IIS Deployment', icon: 'bi-hdd-network' },
+    { name: 'Unit Testing (xUnit, Moq, FluentAssertions)', icon: 'bi-check2-all' },
+    { name: 'Angular & AngularJS', icon: 'bi-angular' },
+    { name: 'TypeScript & JavaScript', icon: 'bi-filetype-js' },
     { name: 'React', icon: 'bi-react' },
-    { name: 'TypeScript', icon: 'bi-filetype-ts' },
-    { name: 'Git', icon: 'bi-git' }
+    { name: 'jQuery & AJAX', icon: 'bi-code-slash' },
+    { name: 'HTML & CSS', icon: 'bi-filetype-html' },
+    { name: 'Telerik & Kendo UI', icon: 'bi-ui-checks-grid' },
+    { name: 'REST APIs & OOP', icon: 'bi-cloud-arrow-up' },
+    { name: 'Data Structures', icon: 'bi-diagram-2' },
+    { name: 'AI-Assisted Development (GitHub Copilot, LLMs)', icon: 'bi-robot' }
   ];
 
   const softSkills = [
-    { name: 'Communication', icon: 'bi-chat-dots' },
-    { name: 'Leadership', icon: 'bi-person-check' },
-    { name: 'Time Management', icon: 'bi-clock' },
-    { name: 'Problem-solving', icon: 'bi-lightbulb' },
-    { name: 'Adaptability', icon: 'bi-shuffle' },
-    { name: 'Teamwork', icon: 'bi-people' },
-    { name: 'Creativity', icon: 'bi-palette' },
-    { name: 'Jira', icon: 'bi-kanban' },
-    { name: 'Agile Methodology', icon: 'bi-arrow-repeat' }
+    { name: 'Communication & Cross-Team Collaboration', icon: 'bi-chat-dots' },
+    { name: 'Problem-Solving Under Pressure', icon: 'bi-lightning-charge' },
+    { name: 'Ownership & Time Management', icon: 'bi-clock-history' },
+    { name: 'Cross-Functional Teamwork', icon: 'bi-people' },
+    { name: 'Agile & PI Cycles', icon: 'bi-arrow-repeat' },
+    { name: 'Incident Triage & Production Support', icon: 'bi-tools' }
   ];
 
   return (

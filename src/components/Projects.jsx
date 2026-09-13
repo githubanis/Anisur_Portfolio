@@ -3,23 +3,30 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      name: 'Real-Time Payment Platform — MetLife BD',
+      technologies: '.NET 10, gRPC, SSE, MongoDB, SQL Server, Microsoft Entra ID, IIS, Azure DevOps',
+      description: 'End-to-end owned enterprise platform for real-time policy payments, top-ups, and withdrawals. Features gRPC policy service contracts, Server-Sent Events monitoring dashboard, resilient MongoDB background queues, and gated bank settlement flows across 18+ delivered epics.',
+      liveLink: '#',
+      isPrivate: true
+    },
+    {
       name: 'SportsWerks Platform',
-      technologies: 'ASP.NET, Telerik, Kendo UI, SQL',
-      description: 'Contributed to the development of a 360° business management and player development platform for the sports industry.',
+      technologies: 'ASP.NET, Telerik, Kendo UI, jQuery, SQL',
+      description: 'Contributed to the development of a 360° business management and player development platform for sports organizations.',
       liveLink: '#',
       isPrivate: true
     },
     {
       name: 'HSBC Queue Management System',
-      technologies: '.NET, Angular 8, TypeScript',
-      description: 'Played a role in building a queue management system to enhance customer service efficiency at HSBC branches.',
+      technologies: '.NET Core, Angular 8, TypeScript',
+      description: 'Played a key role in building a queue management system to enhance customer service efficiency at HSBC branches.',
       liveLink: '#',
       isPrivate: true
     },
     {
-      name: 'Automated Service Request Solution',
-      technologies: 'SharePoint, AngularJS, HTML, CSS',
-      description: 'Developed features for an internal tool to automate the company’s service request and approval workflow.',
+      name: 'Automation of Service Request Solution',
+      technologies: 'SharePoint Server 2016, AngularJS, HTML, CSS',
+      description: 'Developed features for an internal tool to process company service requests through an automated approval workflow.',
       liveLink: '#',
       isPrivate: true
     },
